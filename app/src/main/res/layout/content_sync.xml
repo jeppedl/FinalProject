@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.pmr.finalproject.SyncActivity"
+    tools:showIn="@layout/activity_sync">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SENS MOTION"
+        android:id="@+id/content_sync_textView"
+        android:layout_alignParentTop="true"
+        android:textAlignment="center"
+        android:drawableTop="@drawable/ic_heart"
+        android:textColor="#A9A8A8"
+        android:layout_marginBottom="2dp"/>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/content_sync_textView"
+        android:id="@+id/content_sync_view"
+        android:background="#00A79D"
+        android:layout_marginTop="2dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/content_sync_button1"
+        android:layout_below="@+id/content_sync_view"
+        android:background="@drawable/button2"
+        android:drawableLeft="@drawable/ic_cogwheel"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/content_sync_textView1"
+        android:layout_below="@+id/content_sync_button1"
+        android:layout_centerHorizontal="true"
+        android:text="SETUP"
+        android:textStyle="italic"
+        android:textColor="#A9A8A8"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/content_sync_button2"
+        android:layout_below="@+id/content_sync_button1"
+        android:background="@drawable/button2"
+        android:drawableLeft="@drawable/ic_arrows"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/content_sync_textView2"
+        android:layout_below="@+id/content_sync_button2"
+        android:layout_centerHorizontal="true"
+        android:text="SYNC SETTINGS"
+        android:textStyle="italic"
+        android:textColor="#A9A8A8"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/content_sync_button3"
+        android:background="@drawable/button2"
+        android:drawableLeft="@drawable/ic_cup"
+        android:layout_below="@+id/content_sync_button2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/content_sync_textView3"
+        android:layout_below="@+id/content_sync_button3"
+        android:layout_centerHorizontal="true"
+        android:text="SET GOALS"
+        android:textStyle="italic"
+        android:textColor="#A9A8A8"/>
+
+</RelativeLayout>
